@@ -1,0 +1,58 @@
+.about-me-section {
+    height: 100vh;
+    min-height: 700px;
+    &.section {
+        padding-top: 0;
+    }
+
+    &__wrapper {
+        padding-top: 76px;
+        height: 100%;
+        background: linear-gradient(45deg, #042c0e7a 0%, #a9d4ce 42%, #f9efb79e 72%, #fdfcfa 100%) 0 0 / 400%;
+        animation: gradient 12s infinite linear;
+        background-size: 400%;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        height: 100%;
+    }
+
+    &__photo {
+        border-radius: 50%;
+        box-shadow: 0 10px 20px 6px #042c0e;
+    }
+
+    &__name {
+        font-family: 'Comfortaa';
+        font-weight: 700;
+        font-size: 60px;
+        margin-bottom: 24px;
+    }
+
+    &__profession {
+        font-family: 'Comfortaa';
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    &__desc {
+        text-align: justify;
+    }
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
