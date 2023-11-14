@@ -1,1 +1,2 @@
-import './js/example';
+import './js/preloader';
+// import './js/mail';
