@@ -17,6 +17,12 @@ body {
       box-sizing: border-box;
       transition: all 0.25s ease-in-out;
     }
+
+    .container {
+      max-width: 1200px;
+      padding-right: 16px;
+      padding-left: 16px;
+    }
 }
 
 .section {
