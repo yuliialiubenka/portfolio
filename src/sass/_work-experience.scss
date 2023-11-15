@@ -62,6 +62,7 @@
             background: #042c0e;
             text-align: center;
             position: relative;
+            z-index: 1;
 
             & p {
                 transform: translateY(15px);
