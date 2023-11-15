@@ -23,3 +23,17 @@ body {
   padding-top: 100px;
   background: #fff;
 }
+
+// ScrollOut
+
+[data-scroll] {
+  transition: all 1s ease-in-out;
+}
+[data-scroll="in"] {
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-scroll="out"] {
+  opacity: 0;
+  transform: translateY(40px);
+}

@@ -145,7 +145,7 @@ export const langArr = {
         "ua": "Вересень 2014 - Червень 2018   |   Україна",
     },
     "contacts" : {
-        "de": "Kontakt",
+        "de": "Kontakten",
         "en": "Contacts",
         "ua": "Контакти",
     },
