@@ -57,3 +57,53 @@
         background-position: 80% 0%;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .about-me-section {
+        &__container {
+            gap: 24px;
+        }
+
+        &__photo {
+            width: 40%;
+        }
+
+        &__info {
+            width: calc(60% - 24px);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-me-section {
+        height: 100%;
+
+        &__container {
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        &__wrapper {
+            padding-top: 120px;
+            padding-bottom: 100px;
+        }
+
+        &__photo {
+            width: 90%;
+        }
+
+        &__name {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        &__profession {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        &__info {
+            width: 100%;
+        }
+    }
+}

@@ -43,7 +43,7 @@
         &-wrap {
             border: 3px solid #042c0e;
             border-radius: 20px 20px 0 0;
-            padding: 24px;
+            padding: 24px 10px;
         }
 
         &-title {
@@ -89,5 +89,50 @@
             text-align: justify;
         }
 
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .work-experience-section {
+        &__wrapper {
+            flex-direction: column;
+            gap: 100px;
+            align-items: center;
+        }
+
+        &__card {
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .work-experience-section {
+        &__card {
+            width: 100%;
+
+            &-time {
+                &:before {
+                    width: 96%;
+                    left: 2%;
+                }
+            }
+
+            &-title {
+                font-size: 22px;
+            }
+
+            &-desc {
+                padding: 40px 16px 16px;
+            }
+
+            &-wrap {
+                padding: 16px;
+            }
+        }
+
+        &__title {
+            font-size: 40px;
+        }
     }
 }

@@ -25,7 +25,7 @@
     &__wrap {
         display: flex;
         justify-content: space-between;
-        gap: 16px;
+        gap: 24px;
     }
 
     &__block {
@@ -59,6 +59,43 @@
 
         &:nth-child(2) .skills-section__block-title {
             text-align: right;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .skills-section {
+        &__block {
+            max-width: 48%;
+        }
+
+        &__title {
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills-section {
+        &__block {
+            max-width: 100%;
+
+            &:nth-child(2) .skills-section__block-title {
+                text-align: center;
+            }
+
+            &-title {
+                font-size: 24px;
+                text-align: center;
+            }
+        }
+
+        &__wrap {
+            flex-direction: column;
+        }
+
+        &__title {
+            font-size: 40px;
         }
     }
 }

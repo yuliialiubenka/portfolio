@@ -55,3 +55,30 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    &__logo img {
+      width: 60px;
+    }
+
+    &__nav {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 54px;
+      justify-content: center;
+      background: #042c0ed1;
+      box-shadow: 0px 4px 10px 0px rgba(9, 9, 9, 0.61);
+  
+      &-link {
+        padding: 10px;
+      }
+  
+      &-icon {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}

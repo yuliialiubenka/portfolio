@@ -20,7 +20,7 @@ export const langArr = {
         "ua": "Відповідальна, працьовита, креативна, уважна до деталей розробниця і натхненна особистість, яка прагне пробудувати успішну кар'єру в ІТ та розвиватися в нових сферах. Під час роботи в цій сфері я накопичила знання HTML, CSS, JavaScript, React та вдосконалила свої навички. Якщо говорити про мої принципи та переконання, то, на мій погляд, фронтенд-розробник — це митець, який творить за допомогою коду, тому я створюю сайти так, щоб милуватися результатом своєї роботи. До того ж, я досить творча особистість, тому у вільний час, окрім удосконалення своїх навичок кодування, малюю портрети.",
     },
     "work-experience" : {
-        "de": "Berufserfahrung",
+        "de": "Berufspraxis",
         "en": "Work Experience",
         "ua": "Досвід роботи",
     },
@@ -45,8 +45,8 @@ export const langArr = {
         "ua": "Викладач німецької мови ",
     },
     "vspu" : {
-        "de": "SPUW benannt nach M. Kotsyubynsky",
-        "en": "VSPU named after M. Kotsiubynsky",
+        "de": "SPUW benannt nach M.\xA0\Kozjubynsky",
+        "en": "VSPU named after M.\xA0\Kotsiubynsky",
         "ua": "ВДПУ імені М. Коцюбинського",
     },
     "gtu-date-place" : {
@@ -120,8 +120,8 @@ export const langArr = {
         "ua": "Грудень 2020 - Квітень 2021   |   Україна",
     },
     "vspu-ed" : {
-        "de": "SPUW benannt nach M. Kotsyubynsky",
-        "en": "VSPU named after M. Kotsiubynsky",
+        "de": "SPUW benannt nach M.\xA0\Kozjubynsky",
+        "en": "VSPU named after M.\xA0\Kotsiubynsky",
         "ua": "ВДПУ імені М. Коцюбинського",
     },
     "master" : {
