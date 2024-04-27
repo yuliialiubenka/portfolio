@@ -454,4 +454,44 @@ export const langArr = {
     en: 'The following technologies are applied in this project:',
     ua: 'У цьому проєкті використовуються такі технології:',
   },
+  'learn-lingo-role': {
+    de: 'Lieblingsprojekt | Entwicklerin',
+    en: 'Pet project | Developer',
+    ua: 'Пет-проєкт | Розробниця',
+  },
+  'learn-lingo-desc-1': {
+    de: 'Dieses Projekt ist eine Webanwendung für ein Unternehmen, das Online-Sprachunterricht anbietet.',
+    en: 'This project is a web application for a company offering online language tutoring services.',
+    ua: 'Цей проект - веб-додаток для компанії, яка надає послуги онлайн-репетиторства з мов.',
+  },
+  'learn-lingo-desc-2': {
+    de: 'Firebase_DB wird für das Backend verwendet und das State Management wird mithilfe der Redux Toolkit-Bibliothek erstellt.',
+    en: 'Firebase_DB is used for the backend and state management is created using the Redux Toolkit library.',
+    ua: 'Firebase_DB використовується для бекенду, а управління станом створено за допомогою бібліотеки Redux Toolkit.',
+  },
+  'learn-lingo-desc-3': {
+    de: 'Folgende Technologien werden in diesem Projekt eingesetzt:',
+    en: 'The following technologies are applied in this project:',
+    ua: 'У цьому проєкті використовуються такі технології:',
+  },
+  'crm-for-vendors-role': {
+    de: 'Lieblingsprojekt | Entwicklerin',
+    en: 'Pet project | Developer',
+    ua: 'Пет-проєкт | Розробниця',
+  },
+  'crm-for-vendors-desc-1': {
+    de: 'Ein umfassende CRM-ähnliche Webanwendung zur Optimierung des Lieferanteninformationsmanagements.',
+    en: 'A full-fledged CRM-like web application aimed at optimizing vendor information management.',
+    ua: 'Повнофункціональний веб-додаток, схожий на CRM, спрямований на оптимізацію управління інформацією постачальників.',
+  },
+  'crm-for-vendors-desc-2': {
+    de: 'Mockapi wird für das Backend verwendet, Tailwind.css für das Styling von Komponenten und React Query für das State Management.',
+    en: 'Mockapi is used for the backend, Tailwind.css for styling components and React Query for state management.',
+    ua: 'Mockapi використовується для бекенду, Tailwind.css для стилізації компонентів, а React Query для керування станом.',
+  },
+  'crm-for-vendors-desc-3': {
+    de: 'Folgende Technologien werden in diesem Projekt eingesetzt:',
+    en: 'The following technologies are applied in this project:',
+    ua: 'У цьому проєкті використовуються такі технології:',
+  },
 };
